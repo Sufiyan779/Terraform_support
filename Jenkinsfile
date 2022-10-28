@@ -13,6 +13,7 @@ pipeline{
         {
             steps
             {
+                sh 'cd /ntier'
                 sh 'terraform -auto-approve'
             }
         }
