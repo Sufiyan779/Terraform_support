@@ -1,5 +1,5 @@
 pipeline{
-    agent { label 'OPENJDK-11-2' }
+    agent { label 'OPENJDK-11-terra' }
     stages{
         stage ('pull from vcs')
         {
